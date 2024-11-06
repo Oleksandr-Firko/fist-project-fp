@@ -1,5 +1,5 @@
 import './profileCard.css'
-//import instIco from "../../assets/instagram.png";
+import instIco from "../../assets/instagram.png";
 import gitIco from "../../assets/line-md--github-loop.svg";
 
 function ProfileCard({portraitUrl,info,gitLink,instLink}) {
@@ -12,11 +12,11 @@ function ProfileCard({portraitUrl,info,gitLink,instLink}) {
         title="My GitHub"
         icoLink={gitIco}
       />
-      {/*<Button
+      <Button
         accountLink={instLink}
         title="My Instagram"
         icoLink={instIco}
-      />*/}
+      />
     </div>
   );
 }

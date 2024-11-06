@@ -1,5 +1,6 @@
 import "./App.css";
-import HomeWork2 from "./components/homeWorkComponents/HomeWork2/HomeWork2.jsx";
+import HomeWork1 from "./components/homeWorkComponents/HomeWork1/HomeWork1.jsx";
+//import HomeWork2 from "./components/homeWorkComponents/HomeWork2/HomeWork2.jsx";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function Header() {
 function Main() {
   return (
     <main>
-      <HomeWork2 />
+      <HomeWork1 />
+      {/*<HomeWork2 />*/}
     </main>
   );
 }
