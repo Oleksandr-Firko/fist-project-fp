@@ -1,7 +1,8 @@
 import "./App.css";
 //import HomeWork1 from "./components/homeWorkComponents/HomeWork1/HomeWork1.jsx";
 //import HomeWork2 from "./components/homeWorkComponents/HomeWork2/HomeWork2.jsx";
-import HomeWork3 from "./components/homeWorkComponents/HomeWork3/HomeWork3.jsx";
+//import HomeWork3 from "./components/homeWorkComponents/HomeWork3/HomeWork3.jsx";
+import HomeWork4 from "./components/homeWorkComponents/HomeWork4/HomeWork4.jsx";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function Main() {
     <main>
       {/*<HomeWork1 />*/}
       {/*<HomeWork2 />*/}
-      <HomeWork3 />
+      {/*<HomeWork3 />*/}
+      <HomeWork4 />
     </main>
   );
 }
