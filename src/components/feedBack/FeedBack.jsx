@@ -21,8 +21,8 @@ function FeedBack() {
     <div className="container">
       <h1>Home work 4</h1>
       <div className="feedback-result">
-        <span className="like">{like || 0}</span>
-        <span className="dislike">{disLike || 0}</span>
+        <span className="like">👍{like || 0}</span>
+        <span className="dislike">👎{disLike || 0}</span>
       </div>
       <div className="btn-container">
         <div>
