@@ -4,7 +4,7 @@ import HeroGallery from "../../heroGallery/HeroGallery";
 function HomeWork5() {
   return (
     <>
-      <h1>Home work 5</h1>
+      <h1 className="title">Home work 5</h1>
       <HeroGallery />
     </>
   );

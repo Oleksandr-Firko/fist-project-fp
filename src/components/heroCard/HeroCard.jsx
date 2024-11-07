@@ -9,10 +9,13 @@ function HeroCard({ isDark, name, age, image, weapons }) {
       </p>
       <img src={image} alt="" />
       <p>
-              Hero weapons{weapons.map((weapon, index) => (
-                <span className="weapon" key={index}> | {weapon}</span>
-              ))}
-            </p>
+        Hero weapons
+        {weapons.map((weapon, index) => (
+          <span className="weapon" key={index}>
+            | {weapon}
+          </span>
+        ))}
+      </p>
     </article>
   );
 }

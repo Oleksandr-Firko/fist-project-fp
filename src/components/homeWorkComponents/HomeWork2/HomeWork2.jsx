@@ -7,27 +7,15 @@ let famousPeople = [
     photo_url:
       "https://img01.rl0.ru/afisha/e1200x1200i/daily.afisha.ru/uploads/images/7/dc/7dcbd696ea6e3e762ddee72126ceece9.jpg",
     name: "Elon Musk",
-    professions: [
-      "Entrepreneur",
-      "founder of SpaceX and Tesla",
-      "owner of X (formerly Twitter)",
-    ],
-    hobbies: [
-      "Space innovation",
-      "artificial intelligence",
-      "electric vehicles",
-    ],
+    professions: ["Entrepreneur","founder of SpaceX and Tesla","owner of X (formerly Twitter)"],
+    hobbies: ["Space innovation","artificial intelligence","electric vehicles"],
   },
   {
     id: 1,
     photo_url:
       "https://upload.wikimedia.org/wikipedia/commons/e/e9/Official_portrait_of_Barack_Obama.jpg",
     name: "Barack Obama",
-    professions: [
-      "44th President of the United States",
-      "author",
-      "public figure",
-    ],
+    professions: ["44th President of the United States","author","public figure"],
     hobbies: ["Basketball", "music", "writing books"],
   },
   {
@@ -42,10 +30,10 @@ let famousPeople = [
 
 function HomeWork2() {
   return (
-    <>
-      <h1>Home Work 2</h1>
-      <h1>The most famous people in the world!</h1>
-      <div className="container">
+    <div className="box">
+      <h1 className="title">Home Work 2</h1>
+      <h1 className="title">The most famous people in the world!</h1>
+      <div className="container-hw2">
         {famousPeople.map((person) => {
           return (
             <ProfileCardV2
@@ -58,7 +46,7 @@ function HomeWork2() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
 

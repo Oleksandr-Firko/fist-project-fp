@@ -4,7 +4,7 @@ import "./HomeWork4.css";
 function HomeWork4(params) {
   return (
     <>
-      <h1>Home work 4</h1>
+      <h1 className="title">Home work 4</h1>
       <FeedBack />
     </>
   );
