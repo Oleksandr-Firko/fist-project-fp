@@ -12,7 +12,11 @@ let famousPeople = [
       "founder of SpaceX and Tesla",
       "owner of X (formerly Twitter)",
     ],
-    hobbies: ["Space innovation","artificial intelligence","electric vehicles"],
+    hobbies: [
+      "Space innovation",
+      "artificial intelligence",
+      "electric vehicles",
+    ],
   },
   {
     id: 1,
@@ -39,6 +43,7 @@ let famousPeople = [
 function HomeWork2() {
   return (
     <>
+      <h1>Home Work 2</h1>
       <h1>The most famous people in the world!</h1>
       <div className="container">
         {famousPeople.map((person) => {

@@ -2,7 +2,12 @@ import FeedBack from "../../feedBack/FeedBack";
 import "./HomeWork4.css";
 
 function HomeWork4(params) {
-  return <FeedBack />;
+  return (
+    <>
+      <h1>Home work 4</h1>
+      <FeedBack />
+    </>
+  );
 }
 
 export default HomeWork4;
