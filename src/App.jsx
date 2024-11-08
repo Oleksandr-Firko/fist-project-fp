@@ -20,19 +20,19 @@ function Header() {
   return (
     <header>
       <div className="link-box">
-        <a className="btn" href="/homeWork1">
+        <a className="btn" href="https://oleksandr-firko.github.io/fist-project-fp/homeWork1">
         HomeWork1
         </a>
-        <a className="btn" href="/homeWork2">
+        <a className="btn" href="https://oleksandr-firko.github.io/fist-project-fp/homeWork2">
         HomeWork2
         </a>
-        <a className="btn" href="/homeWork3">
+        <a className="btn" href="https://oleksandr-firko.github.io/fist-project-fp/homeWork3">
         HomeWork3
         </a>
-        <a className="btn" href="/homeWork4">
+        <a className="btn" href="https://oleksandr-firko.github.io/fist-project-fp/homeWork4">
         HomeWork4
         </a>
-        <a className="btn" href="/homeWork5">
+        <a className="btn" href="https://oleksandr-firko.github.io/fist-project-fp/homeWork5">
         HomeWork5
         </a>
       </div>
