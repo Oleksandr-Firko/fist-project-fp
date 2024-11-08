@@ -1,5 +1,5 @@
 import "./App.css";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomeWork1 from "./components/homeWorkComponents/HomeWork1/HomeWork1.jsx";
 import HomeWork2 from "./components/homeWorkComponents/HomeWork2/HomeWork2.jsx";
 import HomeWork3 from "./components/homeWorkComponents/HomeWork3/HomeWork3.jsx";
